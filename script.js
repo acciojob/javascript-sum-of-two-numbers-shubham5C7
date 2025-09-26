@@ -9,10 +9,10 @@ let input2 = prompt("Enter the second number:");
     if(isNaN(num1) || isNaN(num2)){
          return "Invalid input. Please enter a valid number.";
     }
-
         let sum = num1 + num2;
       return `The sum of ${num1} and ${num2} is ${sum}.`
      }
 
  alert(display(input1,input2));
+
 
